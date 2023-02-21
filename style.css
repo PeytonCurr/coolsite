@@ -1,0 +1,74 @@
+body {
+  margin: 1px;
+}
+
+header {
+  border: 2px solid black;
+  min-height: 10vh;
+  background-color: #252ff3;
+}
+
+h1 {
+  margin-bottom: 0.25em;
+  font-size: 3em;
+  color: white;
+}
+
+main {
+  min-height: 65vh;
+}
+
+.card1 {
+  background-color: antiquewhite;
+  width: 35em;
+}
+
+.card2 {
+  background-color: antiquewhite;
+  width: 15em;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em;
+  margin-bottom: 15em;
+}
+
+.fake-pic {
+  background-color: #3c6dff;
+  height: 12vh;
+}
+
+footer {
+  border: 2px solid black;
+  min-height: 23vh;
+  background-color: #252ff3
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* UTILS */
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.align-items-end {
+  align-items: end;
+}
+
+.margin-bottom {
+  margin: .25em;
+}
+
+.margin-top {
+  margin: .25em;
+}

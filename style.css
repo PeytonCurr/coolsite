@@ -8,7 +8,7 @@ header {
   background-color: #252ff3;
 }
 
-h1 {
+.title {
   margin-bottom: 0.25em;
   font-size: 3em;
   color: white;
@@ -19,12 +19,28 @@ main {
 }
 
 .card1 {
-  background-color: antiquewhite;
   width: 35em;
+  margin-right: 5em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.top-line {
+  margin: .5em;
+  border: 1em solid rgb(165, 224, 254);
+}
+
+.hook {
+  margin-top: 0.25em;
+  font-size: 2.5em;
+}
+
+.big-p {
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .card2 {
-  background-color: antiquewhite;
   width: 15em;
   margin-left: 5em;
   margin-right: 5em;
@@ -35,6 +51,9 @@ main {
 .fake-pic {
   background-color: #3c6dff;
   height: 12vh;
+  margin: 0;
+  color: white;
+  font-size: larger;
 }
 
 footer {
@@ -63,6 +82,10 @@ footer {
 
 .align-items-end {
   align-items: end;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 .margin-bottom {
